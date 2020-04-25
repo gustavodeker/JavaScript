@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 06</title>
+    <style>
+        body {
+            background-color: rgb(105, 105, 247);
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição...</p>
+    <script>
+        /*
+        window.alert('Minha primeira mensagem!')
+        window.confirm('Gostou?')  //vai perguntar sim ou não
+        var nome = window.prompt('Qual seu nome?')  // caixa de texto/atribui variavel
+        alert('Seja bem-vindo ' + nome)
+        */
+        var n1 = Number.parseInt(window.prompt('Digite um número: '))
+        // retorna tudo como string, o number.parseint/float tranforma e number
+        var n2 = Number.parseInt(window.prompt('Digite outro nímero: '))
+        var n3 = Number(window.prompt('Digite o outro número: ')) //simplificado
+        var soma = n1 + n2
+        
+        window.alert(`A soma dos valores é: ${soma} e o teste é ${n3}`)
+        /*number + number para adição
+          string + string concatena
+          usando crase `` se usa template string ${} para escrever variável dentro
+        */
+    </script>
+</body>
+</html>
